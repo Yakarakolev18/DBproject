@@ -41,7 +41,7 @@ public class Customer {
         this.fName = fName;
     }
 
-    public String getLastName() {
+    public String getlName() {
         return lName;
     }
 
@@ -69,9 +69,9 @@ public class Customer {
     public String toString() {
         return "Customers{" +
                 "username='" + username + '\'' +
-                ", passwd='" + passwd + '\'' +
-                ", fName='" + fName + '\'' +
-                ", lName='" + lName + '\'' +
+                ", password='" + passwd + '\'' +
+                ", first name='" + fName + '\'' +
+                ", last name='" + lName + '\'' +
                 ", role='" + role + '\'' +
                 ", team='" + team + '\'' +
                 '}';
