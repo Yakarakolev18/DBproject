@@ -3,6 +3,7 @@ CREATE TABLE Customers (
     FirstName NVARCHAR(50) NOT NULL,
     LastName NVARCHAR(50) NOT NULL,
     Username NVARCHAR(50) NOT NULL,
+    Password NVARCHAR(50) NOT NULL,
     Role NVARCHAR(50) NOT NULL,
     Team NVARCHAR(50) NOT NULL,
     PRIMARY KEY(ID)
